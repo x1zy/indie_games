@@ -26,7 +26,11 @@
   border-left: 14px solid white;
 }
 
-.footer .social-list__link {
+.social-list__link {
+  font-family: 'Rubic One', sans-serif;
+  font-size: 30px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  white-space: nowrap;
   text-transform: uppercase;
   font-weight: bold;
   aspect-ratio: 1 / 1;
@@ -42,7 +46,7 @@
   border-bottom: 0;
 }
 
-.footer .social-list__link:hover {
+.social-list__link:hover {
   background-color: #ffff00;
   color: black;
 }
