@@ -27,7 +27,7 @@
 }
 
 .social-list__link {
-  font-family: 'Rubic One', sans-serif;
+  font-family: "Rubic One", sans-serif;
   font-size: 30px;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   white-space: nowrap;
