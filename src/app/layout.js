@@ -1,8 +1,4 @@
 import { Header } from "./components/Header/Header";
-import { Banner } from "./components/Banner/Banner";
-import { PopularCardsList } from "./components/CardsList/PopularCardsList";
-import { NewCardsList } from "./components/CardsList/NewCardsList";
-import { Promo } from "./components/Promo/Promo";
 import { Footer } from "./components/Footer/Footer";
 
 import "./globals.css";
@@ -17,13 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="ru">
       <body>
         <Header />
-        <main>
-          {children}
-          <Banner />
-          <PopularCardsList />
-          <NewCardsList />
-          <Promo />
-        </main>
+        {children}
         <Footer />
       </body>
     </html>
