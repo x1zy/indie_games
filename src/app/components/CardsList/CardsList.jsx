@@ -1,8 +1,8 @@
-import Styles from "./CardList.module.css";
+import Styles from "./CardsList.module.css";
 import { Card } from "../Card/Card";
 import Link from "next/link";
 
-export const CardList = (props) => {
+export const CardsList = (props) => {
   return (
     <section className={Styles["list-section"]}>
       <h2 className={Styles["list-section__title"]} id={props.id}>
